@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mon formulaire</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/master.css">
+    <script src="js/blackjack2.js"></script>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Mon Black-jack!</legend>
+      <div>
+        <label for="phrasejoueur">Le joueur reçoit :</label>
+        <span id="tiragejoueur"></span><br>
+      </div>
+      <div>
+        <label for="phrasecroupier">Le croupier reçoit :</label>
+        <span id="tiragecroupier"></span><br>
+      </div>
+      <div>
+        <input id="submit" type="button" value="Envoyer"  onclick="start()"><br>
+        <input id="submit" type="button" value="Piocher"  onclick="pioche()"><br>
+        <input id="submit" type="button" value="Resultat"  onclick="result()"><br>
+        <span id="phrase"></span>
+      </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
